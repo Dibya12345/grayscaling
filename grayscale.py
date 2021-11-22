@@ -7,6 +7,7 @@ image=Image.open('flower.jpeg')
 image_array=np.array(image)
 #Now convert the colouerd into grayscale by following method (B*0.2989+G*0.5870+R*0.1140)
 #repalce the average value in r,g,b in pixel the coloured image
+# This is the cahnge
 for i in range(image.height):
     for j in range(image.width):
         average=(image_array[i][j][0]*0.2989+image_array[i][j][1]*0.5870+image_array[i][j][2]*0.1140)
